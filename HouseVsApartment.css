@@ -1,0 +1,38 @@
+body
+{   /*Set background for whole page*/
+    background-color: LemonChiffon;
+}
+
+table
+{   /*Have single border for table cells*/
+    border-collapse: collapse;
+}
+table, th, td
+{
+    border: 1px solid black;
+}
+
+th
+{   /*Use bigger cells for headings*/
+    padding: 20px;
+}
+th.TopLeftCornerCell
+{
+    border-top: hidden;
+    border-left: hidden;
+}
+td
+{
+    padding: 10px;  
+}
+
+.Positives
+{
+    color: green;
+    vertical-align: top;
+}
+.Negatives
+{
+    color: red;
+    vertical-align: top;
+}
